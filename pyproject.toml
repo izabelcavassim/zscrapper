@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "zillow_scrapper"
+version = "0.1.0"
+description = "Zillow Scrapper for SW dev using CrewAI & LangChain"
+authors = ["Maria Izabel Cavassim Alves <izabelcavassim@email.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "zscrapper"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+crewai = "0.28.8"
+crewai-tools = "0.1.6"
+langchain-community = "0.0.29"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
